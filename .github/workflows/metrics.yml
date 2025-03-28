@@ -20,6 +20,7 @@ jobs:
           # Options
           user: 256p
           template: classic
+          repositories_affiliations: ""
           base: header, activity, repositories, metadata
           config_timezone: Europe/Riga
           plugin_calendar: yes
