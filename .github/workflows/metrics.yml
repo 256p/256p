@@ -21,6 +21,7 @@ jobs:
           user: 256p
           template: classic
           base: header, activity, repositories, metadata
+          base_indepth: yes
           config_timezone: Europe/Riga
           plugin_calendar: yes
           plugin_calendar_limit: 6
@@ -29,6 +30,7 @@ jobs:
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
@@ -37,6 +39,7 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_notable: yes
           plugin_notable_from: all
+          plugin_notable_indepth: yes
           plugin_notable_repositories: yes
           plugin_notable_types: commit, pull_request, issue
           plugin_stackoverflow: yes
